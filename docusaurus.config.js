@@ -23,12 +23,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/contabo/docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/contabo/docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
