@@ -3,8 +3,8 @@ name: deploy-docs
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  # pull_request:
+  #   branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,10 +22,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "17"
-      # Install and build Docusaurus website
-      - name: Build docs with docusaurus
+      # Install and build docs with Docusaurus
+      - name: Build docs with Docusaurus
         run: |
-          npm ci 
+          npm ci
           npm run build
       - name: Deploy to GitHub Pages
         if: success()
