@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Contabo Product Documentation',
-  tagline: 'Tutorials and How Tos',
+  tagline: 'Tutorials and How-To\'s. Work in progress.',
   url: 'https://docs.contabo.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -76,30 +76,34 @@ const config = {
           {
             title: 'Community',
             items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/ContaboCom',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/ContaboCom/',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/contabo-gmbh',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/contabo',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/contabo/docs',
+              },
+              {
+                label: 'Contabo',
+                href: 'https://contabo.com',
               },
             ],
           },
