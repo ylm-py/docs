@@ -24,6 +24,7 @@ For tools not covered in the list, please consider the following information:
 
 ## Tools known to work
 
+* aws cli
 * Veeam (To be checked)
 * Synology (To be checked)
 * Amazon S3 Cloudberry Explorer (To be checked)
