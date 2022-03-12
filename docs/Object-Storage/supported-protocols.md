@@ -7,8 +7,10 @@ sidebar_position: 3
 S3 compatible Object Storage has it's own protocol (i.e. how and in which sequence specified data formats are being exchanged) which Amazon AWS made popular in 2006 with AWS S3 Object Storage.
 
 That's why protocols like:
+
 * SFTP / SCP
 * FTP / FTPS
+* NFS / CIFS / SAMBA
 
 will **NOT** work with S3 compatible Object Storage.
 
