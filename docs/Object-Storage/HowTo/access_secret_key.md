@@ -4,40 +4,16 @@ sidebar_position: 1
 
 # Generate Access Key and Secret Key
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+When Contabo is provioning the S3 compatible Object Storage S3 credentials, namely `access key` and `secret key`, are being generated in a secure manner for you. If you wish to regenerate a new `secret key` plese follow these steps:
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+1. Login to the [Contabo Customer Panel](https://my.contabo.com/object_storage)
+2. Navigate to `Object Storage`
+3. (only once) Setup your password for the Object Storage Panel
+4. Switch to Object Storag Panel
+5. Navigate to `Account` -> `Security & Access`
+6. Scroll to `S3 Object Storage Credentials`
 
-## Create your first React Page
+There you shoul be able to copy the `access key` and `secret key`. Using `Regenerate Secret` a new `secret key` is being generated.
 
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at `http://localhost:3000/my-react-page`.
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+The follwing screenshot illustrates it.
+![S3 Credentials](/img/products/object-storage/S3-credentials.png)
