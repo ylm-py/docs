@@ -4,40 +4,35 @@ sidebar_position: 2
 
 # S3 Connection Settings
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+This is a general description of S3 connection settings. In order to use S3 compatible Object Storage tools or the S3 compatible APIs you will need the followig information:
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+<table>
+    <tr>
+      <th>Region</th>
+      <th>S3 Base URL</th>
+      <th>Credentials</th>
+    </tr>
+    <tr>
+      <td>European Union</td>
+      <td>https://eu2.contabostorage.com</td>
+      <td>Consists of an access key and secret key. See below on how to obtain them</td>
+    </tr>
+    <tr>
+      <td>United States</td>
+      <td>Coming soon</td>
+      <td>Consists of an access key and secret key. See below on how to obtain them</td>
+    </tr>
+    <tr>
+      <td>Singapore</td>
+      <td>Coming soon</td>
+      <td>Consists of an access key and secret key. See below on how to obtain them</td>
+    </tr>
+</table>
 
-## Create your first React Page
+## Obtaining S3 Credentials
 
-Create a file at `src/pages/my-react-page.js`:
+In order to obtain the S3 Credentials please login to [Contabo Customer Panel](https://my.contabo.com/object_storage) and the switch to the Object Storage Panel.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+You can access both credential values or regenerate the secret key. Please refer to the following screenshot:
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at `http://localhost:3000/my-react-page`.
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+![S3 Credentials](/img/products/object-storage/S3-credentials.png)
