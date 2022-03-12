@@ -1,8 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Create a Document
+# What is S3 compatible Object Storage?
+
+
 
 Documents are **groups of pages** connected through:
 
