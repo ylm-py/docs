@@ -9,7 +9,7 @@ const config = {
   title: 'Contabo Product Documentation',
   tagline: 'Tutorials and How-To\'s. Work in progress.',
   url: 'https://docs.contabo.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
