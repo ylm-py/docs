@@ -21,6 +21,7 @@ For tools not covered in the list, please consider the following information:
 * [cntb](/docs/Object-Storage/Tools/cntb)
 * [rclone](/docs/Object-Storage/Tools/rclone)
 * [Cyberduck](/docs/Object-Storage/Tools/cyberduck)
+* [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
 
 ## Tools known to work
 
@@ -32,4 +33,4 @@ For tools not covered in the list, please consider the following information:
 * FileZillaPro (To be checked)
 * Jetbackup (To be checked)
 * Nextcloud (To be checked)
-* s3fs-fuse (To be checked)
+
