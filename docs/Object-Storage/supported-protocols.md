@@ -11,6 +11,7 @@ That's why protocols like:
 * SFTP / SCP
 * FTP / FTPS
 * NFS / CIFS / SAMBA
+* Real-Time Streaming Protocol (RTSP)
 
 will **NOT** work with S3 compatible Object Storage.
 
