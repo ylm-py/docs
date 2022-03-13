@@ -19,13 +19,13 @@ For tools not covered in the list, please consider the following information:
 ## Tools with descriptions
 
 * [cntb](/docs/Object-Storage/Tools/cntb)
+* [aws cli](/docs/Object-Storage/Tools/aws-cli)
 * [rclone](/docs/Object-Storage/Tools/rclone)
 * [Cyberduck](/docs/Object-Storage/Tools/cyberduck)
 * [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
 
 ## Tools known to work
 
-* aws cli
 * Veeam (To be checked)
 * Synology (To be checked)
 * Amazon S3 Cloudberry Explorer (To be checked)
@@ -33,4 +33,3 @@ For tools not covered in the list, please consider the following information:
 * FileZillaPro (To be checked)
 * Jetbackup (To be checked)
 * Nextcloud (To be checked)
-
