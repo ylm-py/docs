@@ -38,3 +38,4 @@ For tools not covered in the list, please consider the following information:
 These tools are -- _to our knowledge_ -- not working with Contabo's Object Storage
 
 * FileZillaPro: Seems like the issue is that FileZillaPro forces to use virtual bucket host name, i.e. bucket names in the domain name.
+  As an alternative please use [Cyberduck](/docs/Object-Storage/Tools/cyberduck).
