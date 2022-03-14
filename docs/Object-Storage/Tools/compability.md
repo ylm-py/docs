@@ -10,7 +10,7 @@ Contabo is using [Ceph](https://ceph.com/) to provide the S3 functionality. Some
 
 For tools not covered in the list, please consider the following information:
 
-* For S3 URL and credentials. Please refer to [S3 Connection Settings](docs/Object-Storage/s3-connection-settings)
+* For S3 URL and credentials. Please refer to [S3 Connection Settings](/docs/Object-Storage/s3-connection-settings)
 * specify Contabo specific S3 URLs
 * sometimes `access_key` is named `aws_access_key_id`
 * sometimes `secret_key` is named `aws_secret_access_key`
