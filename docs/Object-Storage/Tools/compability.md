@@ -30,6 +30,11 @@ For tools not covered in the list, please consider the following information:
 * Synology (To be checked)
 * Amazon S3 Cloudberry Explorer (To be checked)
 * cpanel / whm (To be checked)
-* FileZillaPro (To be checked)
 * Jetbackup (To be checked)
 * Nextcloud (To be checked)
+
+## Tools known NOT to work
+
+These tools are -- _to our knowledge_ -- not working with Contabo's Object Storage
+
+* FileZillaPro: Seems like the issue is that FileZillaPro forces to use virtual bucket host name, i.e. bucket names in the domain name.
