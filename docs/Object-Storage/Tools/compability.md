@@ -15,6 +15,7 @@ For tools not covered in the list, please consider the following information:
 * sometimes `access_key` is named `aws_access_key_id`
 * sometimes `secret_key` is named `aws_secret_access_key`
 * you may specify the S3 region `default`
+* path style buckets are used
 
 ## Tools with descriptions
 
