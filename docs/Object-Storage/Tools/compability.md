@@ -24,6 +24,7 @@ For tools not covered in the list, please consider the following information:
 * [rclone](/docs/Object-Storage/Tools/rclone)
 * [Cyberduck](/docs/Object-Storage/Tools/cyberduck)
 * [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
+* [Nextcloud](/docs/Object-Storage/Tools/nextcloud)
 
 ## Tools known to work
 
@@ -32,7 +33,6 @@ For tools not covered in the list, please consider the following information:
 * Amazon S3 Cloudberry Explorer (To be checked)
 * cpanel / whm (To be checked)
 * Jetbackup (To be checked)
-* Nextcloud (To be checked)
 
 ## Tools known NOT to work
 
