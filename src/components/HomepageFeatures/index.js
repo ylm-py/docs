@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'How-To\'s',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/icon_idea.svg').default,
     description: (
       <>
         Find practical information about how to do things for different Contabo products.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Detailed Contabo Product Descriptions',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/icon_training.svg').default,
     description: (
       <>
         Please find more detailed product descriptions including general informatoin and more specific How-To's or tool support.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Participate',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/icon_grumpy-designer.svg').default,
     description: (
       <>
         Descriptions missing? And you know how to do it? Please share your knowledge with others.
