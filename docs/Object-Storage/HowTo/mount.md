@@ -1,6 +1,6 @@
 ---
 title: Using as shared files
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Using as shared files
