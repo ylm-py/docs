@@ -25,6 +25,7 @@ For tools not covered in the list, please consider the following information:
 * [Cyberduck](/docs/Object-Storage/Tools/cyberduck)
 * [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
 * [Nextcloud](/docs/Object-Storage/Tools/nextcloud)
+* [s3cmd](/docs/Object-Storage/Tools/s3cmd)
 
 ## Tools known to work
 
