@@ -8,7 +8,7 @@ Using [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) you can mount a bucket
 
 Please follow the installation instruction like described on [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse).
 
-In case of Debian / Ubuntu system please pefrom following action:
+In case of Debian / Ubuntu system please perform following action:
 
 ```bash
 sudo apt install s3fs
