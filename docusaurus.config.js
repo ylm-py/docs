@@ -110,6 +110,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    clientModules: [
+      require.resolve('./gtm.js')
+    ]
 };
 
 module.exports = config;
