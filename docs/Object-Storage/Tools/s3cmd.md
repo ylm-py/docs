@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # s3cmd
 
-[s3cmd](https://s3tools.org/s3cmd) is a quite low level tool to control aspects via the S3 API. You can achieve similar action with [aws cli](/docs/Object-Storage/Tools/aws-cli). `s3cmd` runs on Linux and Mac.
+[s3cmd](https://s3tools.org/s3cmd) is a a tool to manage buckets and files an to invoke the S3 API. You can achieve similar action with [aws cli](/docs/Object-Storage/Tools/aws-cli). `s3cmd` runs on Linux and Mac.
 
 Please follow the installation instruction like described on [s3cmd](https://s3tools.org/s3cmd),
 
