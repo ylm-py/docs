@@ -32,8 +32,6 @@ For tools not covered in the list, please consider the following information:
 * Veeam (To be checked)
 * Synology (To be checked)
 * Amazon S3 Cloudberry Explorer (To be checked)
-* cpanel / whm (To be checked)
-* Jetbackup (To be checked)
 
 ## Tools known NOT to work
 
