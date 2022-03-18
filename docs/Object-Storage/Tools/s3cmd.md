@@ -4,16 +4,15 @@ sidebar_position: 8
 
 # s3cmd
 
-[s3cmd](https://s3tools.org/s3cmd) is a a tool to manage buckets and files an to invoke the S3 API. You can achieve similar action with [aws cli](/docs/Object-Storage/Tools/aws-cli). `s3cmd` runs on Linux and Mac.
+[s3cmd](https://s3tools.org/s3cmd) is a tool to manage buckets and files an to invoke the S3 API. You can achieve similar action with [aws cli](/docs/Object-Storage/Tools/aws-cli). `s3cmd` runs on Linux and Mac.
 
-Please follow the installation instruction like described on [s3cmd](https://s3tools.org/s3cmd),
+Please follow the installation instruction like described on [s3cmd](https://s3tools.org/s3cmd).
 
 ## Required data
 
 * `access_key`
 * `secret_key`
 * Contabo's S3 URL
-* your bucket name
 
 For `access_key`, `secret_key` and the S3 URL please check [here](/docs/Object-Storage/s3-connection-settings).
 
