@@ -26,12 +26,12 @@ For tools not covered in the list, please consider the following information:
 * [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
 * [Nextcloud](/docs/Object-Storage/Tools/nextcloud)
 * [s3cmd](/docs/Object-Storage/Tools/s3cmd)
+* [Cloudberry Explorer](/docs/Object-Storage/Tools/cloudberry-explorer)
 
-## Tools known to work
+## Tools to be checked
 
-* Veeam (To be checked)
-* Synology (To be checked)
-* Amazon S3 Cloudberry Explorer (To be checked)
+* Veeam (To be checked). Does it work for you? Please let us know or particpate.
+* Synology (To be checked). Does it work for you? Please let us know or particpate.
 
 ## Tools known NOT to work
 
