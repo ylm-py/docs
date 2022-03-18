@@ -25,3 +25,4 @@ Limitation is performed to assure good and fair performance for all users of the
 * every data stored has additional 3 times redundancy
 * no additional backup is performed
 * bandwidth is limited and regularily adjusted. Limit should be at least 10 MByte/s (=80 Mbit/s)
+* max. chunksize is 5 MB
