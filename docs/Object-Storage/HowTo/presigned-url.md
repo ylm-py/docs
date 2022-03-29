@@ -17,4 +17,4 @@ The easiest way is to use a tool as creating such pre-signed URLs requires codin
 
 ## Format of supported pre-signed URLs
 
-`https://eu2.contabostorage.com/<bucketname>/path/to/file?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=<credential>&X-Amz-Date=<datetime>&X-Amz-Expires=<duration>X-Amz-SignedHeaders=host&X-Amz-Signature=<signature>`
+`https://<region>.contabostorage.com/<bucketname>/path/to/file?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=<credential>&X-Amz-Date=<datetime>&X-Amz-Expires=<duration>X-Amz-SignedHeaders=host&X-Amz-Signature=<signature>`
