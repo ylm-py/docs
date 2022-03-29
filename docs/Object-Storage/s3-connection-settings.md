@@ -18,12 +18,12 @@ This is a general description of S3 connection settings. In order to use S3 comp
       <td>Consists of an access key and secret key. See below on how to obtain them</td>
     </tr>
     <tr>
-      <td>United States</td>
-      <td>Coming soon</td>
+      <td>Singapore</td>
+      <td>https://sin1.contabostorage.com</td>
       <td>Consists of an access key and secret key. See below on how to obtain them</td>
     </tr>
     <tr>
-      <td>Singapore</td>
+      <td>United States</td>
       <td>Coming soon</td>
       <td>Consists of an access key and secret key. See below on how to obtain them</td>
     </tr>
