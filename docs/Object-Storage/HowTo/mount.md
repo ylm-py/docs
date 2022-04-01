@@ -1,6 +1,6 @@
 ---
 title: Mounting S3 Object Storage Files
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Mounting S3 Object Storage Files
