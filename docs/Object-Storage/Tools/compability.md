@@ -26,6 +26,7 @@ For tools not covered in the list, please consider the following information:
 * [s3fs-fuse](/docs/Object-Storage/Tools/s3fs-fuse)
 * [Nextcloud](/docs/Object-Storage/Tools/nextcloud)
 * [s3cmd](/docs/Object-Storage/Tools/s3cmd)
+* [WinSCP](/docs/Object-Storage/Tools/winscp)
 * [Cloudberry Explorer](/docs/Object-Storage/Tools/cloudberry-explorer)
 * [BucketAnywhere](/docs/Object-Storage/Tools/bucketanywhere)
 
