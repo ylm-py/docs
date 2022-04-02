@@ -54,3 +54,11 @@ access_key_id = 82046e8110804a43bf29c1ae426a724d
 secret_access_key = 82e69bd7a52076c527154297a76c2233
 endpoint = https://eu2.contabostorage.com/
 ```
+
+### Usage
+
+Please specify `--s3-no-head` when doing copies of synchronizations to avoid messages like `corrupted on transfer: sizes differ xxx vs 0`. Like the following:
+
+```bash
+rclone sync -P . eu2:bucketname/folder --s3-no-head
+```
