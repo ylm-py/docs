@@ -29,11 +29,7 @@ For tools not covered in the list, please consider the following information:
 * [WinSCP](/docs/Object-Storage/Tools/winscp)
 * [Cloudberry Explorer](/docs/Object-Storage/Tools/cloudberry-explorer)
 * [BucketAnywhere](/docs/Object-Storage/Tools/bucketanywhere)
-
-## Tools to be checked
-
-* Veeam (To be checked). Does it work for you? Please let us know or particpate.
-* Synology (To be checked). Does it work for you? Please let us know or particpate.
+* [Virtualmin](/docs/Object-Storage/Tools/virtualmin)
 
 ## Tools known NOT to work
 
