@@ -20,7 +20,7 @@ To create and add a new user to your User Management list, follow these steps:
 * Open the menu 'Account' and select 'User Management' (see image above)
 * Select 'Create User'. The following menu appears:
 <p align="center">
-<img src="/img/products/object-storage/tutorial/usermanagementoverview.png?raw=true" alt="Usermanagement Overview"/>
+<img src="/img/products/object-storage/tutorial/usermanagementoverview.png" alt="Usermanagement Overview"/>
 </p>
 
 By specifying all mandatory information, the user's corresponding role (e.g. S3 Object Storage Read and Write) and confirming with 'Create' you grant access to buckets, files and folders.
