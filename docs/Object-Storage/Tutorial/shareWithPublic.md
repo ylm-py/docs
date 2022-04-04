@@ -45,8 +45,7 @@ The status of a bucket's public access also appears in the bucket overview (see 
 ### Peculiarity for Sharing Folders
 Note: Browsers do not support the option to show the content of a folder. Therefore, a XML message appears.
 <p align="center">
-<img src="/img/products/object-storage/tutorial/xmlfolderexample.png?raw=true" alt="xml image"/>
+<img src="/img/products/object-storage/tutorial/xmlfolderexample.png?raw=true" alt=" "/>
 </p>
-
 You can open the public folder by using corresponding cli tools or via the Contabo object storage panel.  
 
