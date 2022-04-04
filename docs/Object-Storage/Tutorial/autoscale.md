@@ -30,7 +30,7 @@ The slider on top displays the current state of auto-scale for this storage. By 
 If the feature is active, you can select the maximum amount to which your object storage will be automatically expanded every month if needed. When the purchased space is at capacity your space will be expanded in steps of 250GB up to your pre-defined limit. The setting needs to be confirmed by selecting 'Save Settings'.
 
 ### Where can I find more Product and Pricing Information about Auto-Scaling? 
-For general product and pricing information please see: https://contabo.com/en/object-storage
+For general product and pricing information please see [here](https://contabo.com/en/object-storage). 
 
 ### How can I add more space to my Storage without Auto-Scaling? 
 If you want to expand the memory of your storage permanently and immediately please use the 'Add more GB' option in your storage settings instead. 
