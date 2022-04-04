@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Share Object Storage with public
 
-Users have the opportunity to share their object storage with the public (see this section) or to select users (see [here](/docs/Object-Storage/Tutorial/shareWithUserManagement)).
+Users have the opportunity to share their object storage with the public (see this section) or to selected users (see [here](/docs/Object-Storage/Tutorial/shareWithUserManagement)).
 
 ## How do I share Storage with the public?
 
@@ -52,4 +52,5 @@ Note: Browsers do not support the option to show the content of a folder. Theref
 <p align="center">
 <img src="/img/products/object-storage/tutorial/xmlfolderexample.png?raw=true" alt=" "/>
 </p>
-You can open the public folder by using corresponding cli tools or via the Contabo object storage panel.
+
+You can open the public folder by using corresponding [Tools](/docs/Object-Storage/Tools/compability) or via the Contabo Object Storage Panel.
