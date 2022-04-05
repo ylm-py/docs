@@ -20,7 +20,7 @@ In your object storage overview you can find the column 'Auto-Scaling Status' (s
 
 To activate auto-scaling:
 
-* Login to your Object Storage Panel
+* Log into your Object Storage Panel
 * Open the tab 'Storage Settings' (see also in image above)
 * Select a storage, go to 'more' and click on 'Auto-Scaling Settings'
 
@@ -39,4 +39,4 @@ For general product and pricing information please see [here](https://contabo.co
 
 ## How can I add more space to my Storage without Auto-Scaling?
 
-If you want to expand the memory of your storage permanently and immediately please use the 'Add more GB' option in your storage settings instead.
+If you want to expand the memory of your storage permanently and immediately please use the 'Add more GB' option in your storage settings instead (see [here](/docs/Object-Storage/Tutorial/manualscale).).
