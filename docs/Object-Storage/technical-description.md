@@ -18,7 +18,7 @@ We are using [Ceph](https://ceph.com/) for providing S3 compatible Object Storag
 
 ## Limits
 
-Limitation is performed to assure good and fair performance for all users of the Object Storage system. Limitiations can be adjusted anytime depending current usage.
+Limitation is performed to assure good and fair performance for all users of the Object Storage system. Limitiations can be adjusted anytime depending on current usage.
 
 * max. file size is 5 TB
 * number of objects is currently limited to 3 millions per customer
@@ -26,4 +26,5 @@ Limitation is performed to assure good and fair performance for all users of the
 * every data stored has additional 3 times redundancy
 * no additional backup is performed
 * bandwidth is limited and regularily adjusted. Limit should be at least 10 MByte/s (=80 Mbit/s)
-* max. chunksize is 5 MB
+* max. upload size is 200 MB for larger files please user multipart upload (which most tools support out of the box)
+* max. 100 buckets per customer

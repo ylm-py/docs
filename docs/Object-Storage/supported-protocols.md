@@ -15,6 +15,6 @@ That's why protocols like:
 
 will **NOT** work with S3 compatible Object Storage.
 
-Due to the popularity of S3 compatible Object Storage there are plenty of tools supporting S3 compatible Object Storage. We have compiled a list of tools with description on how to use them with Contabo's S3 compatible Object Storage. Please refer to [Tools](/docs/Object-Storage/Tools/compability).
+Due to the popularity of S3 compatible Object Storage there are plenty of tools supporting S3 compatible Object Storage. We have compiled a list of tools with description on how to use them with Contabo's S3 compatible Object Storage. Please refer to [Tools](/docs/Object-Storage/Tools/compatibility).
 
 Many of these tools are likely to be already used by you as they are also supporting SFTP / FTP.

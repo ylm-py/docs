@@ -53,4 +53,4 @@ Note: Browsers do not support the option to show the content of a folder. Theref
 <img src="/img/products/object-storage/tutorial/xmlfolderexample.png?raw=true" alt=" "/>
 </p>
 
-You can open the public folder by using corresponding [Tools](/docs/Object-Storage/Tools/compability) or via the Contabo Object Storage Panel.
+You can open the public folder by using corresponding [Tools](/docs/Object-Storage/Tools/compatibility) or via the Contabo Object Storage Panel.
