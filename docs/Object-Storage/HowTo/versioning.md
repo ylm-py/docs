@@ -80,6 +80,14 @@ Sample output would be:
 
 The current version which is also returned in regular file listings is the one where `IsLatest` is `true`.
 
+### Get a specific version
+
+In order to access and older version of the file `image003.png` please use the `VersionId` from the output above:
+
+```bash
+aws --profile eu2 --region default --endpoint-url https://eu2.contabostorage.com s3api get-object --bucket bucket-with-versioning --version-id 'L-6oXdYnuAF1orfDEAHV3mDIliEoB9.' --key image003.png image003.png
+```
+
 ## Disable Bucket Versioning
 
 To disable or suspend the Bucket Versioning please proceed as follows:
