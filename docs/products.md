@@ -11,7 +11,7 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 ## Products
 
 * [Contabo's S3 compatible Object Storage](/docs/Object-Storage/what-is)
-* Contabo's Cloud VPS and VDS (to come)
+* [Contabo's Cloud VPS and VDS](/docs/Cloud-VPS-and-VDS/what-is)
 
 ## Hint
 
