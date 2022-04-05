@@ -15,7 +15,7 @@ The easiest way is to use [aws cli](/docs/Object-Storage/Tools/aws-cli). Please 
 
 Create a file `public-sharing-policy.json` with following content
 
-```json
+```json title="public-sharing-policy.json"
 {
   "Id": "your-fancy-name",
   "Version": "2012-10-17",
@@ -44,7 +44,8 @@ This basically allows (`Effect`) reading Objects (`s3:GetObject`) by everyone (`
 * Bucket = foo
 * File to share = foo/test.jpg
 * Policy file = public-sharing-policy.json with following contents
-```json
+
+```json title="public-sharing-policy.json"
 {
   "Id": "public-share-example-test",
   "Version": "2012-10-17",

@@ -42,7 +42,7 @@ This step denies any action on any resource in `bucket-for-user-1` for user `use
 
 With the given data we can build up a policy for `bucket-for-user-1` and store it in file `bucket-for-user-1-policy.json` with following contents:
 
-```json
+```json title="bucket-for-user-1-policy.json"
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -72,7 +72,7 @@ aws --profile eu2 --endpoint-url https://eu2.contabostorage.com s3api put-bucket
 
 This step denies any action on any resource in `bucket-for-user-2` for user `user1@example.com`.
 
-```json
+```json title="bucket-for-user-2-policy.json"
 {
   "Version": "2012-10-17",
   "Statement": [
