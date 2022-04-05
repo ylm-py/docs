@@ -13,7 +13,7 @@ Each data is stored in buckets. To create a new bucket in your object storage, t
 * Log into your Object Storage Panel. You see a list of all of your buckets.
 * Click the button 'Create Bucket'. The following menu appears:
 <p align="center">
-<img src="/img/products/object-storage/tutorial/createBucket.png" alt="Create new Bucket"/>
+<img src="/img/products/object-storage/tutorial/createbucket.png" alt="Create new Bucket"/>
 </p>
 * Name your bucket and select the region where the bucket should be placed at. This is possible in every region you own object storage.
 * Confirm the settings by hitting 'Create Bucket.'
