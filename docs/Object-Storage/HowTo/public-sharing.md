@@ -17,7 +17,7 @@ Create a file `public-sharing-policy.json` with following content
 
 ```json
 {
-  "Id": "your-fany-name",
+  "Id": "your-fancy-name",
   "Version": "2012-10-17",
   "Statement": [
     {

@@ -7,7 +7,7 @@ sidebar_position: 6
 
 With Object Locking you can protect files from being deleted or overwritten. You can also make the protection last for a specific amount of time. Please refer to [Using S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html).
 
-The following example require [aws cli](/docs/Object-Storage/Tools/aws-cli) to be installed and configured.
+The following example requires [aws cli](/docs/Object-Storage/Tools/aws-cli) to be installed and configured.
 
 ## Enable Object Locking
 
