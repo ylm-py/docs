@@ -71,15 +71,15 @@ With both remote storages added to rclone, copying the data from one to another 
 
 ```bash
 # rclone copy [source] [destination]
-rclone copy aws-s3:bucket-name contabo-storage:bucket-name
+rclone copy aws-s3:bucket-name contabo-storage:bucket-name --s3-no-head
 ```
 
 :::info
 If the destination already has content inside, keep the following in mind:
 
--   Existing files on the destination **that don't exist on the source** are ignored and **won't be deleted**
--   Existing files on the destination **that are identical** to the files on the source **will be ignored**
--   Existing files on the destination **that are not identical** to the files on the source **will be overwritten**
-    :::
+- Existing files on the destination **that don't exist on the source** are ignored and **won't be deleted**
+- Existing files on the destination **that are identical** to the files on the source **will be ignored**
+- Existing files on the destination **that are not identical** to the files on the source **will be overwritten**
+:::
 
 This may take a while depending on the size of the files needing to be copied. Note that rclone downloads the files to your computer before uploading them to the destination.
