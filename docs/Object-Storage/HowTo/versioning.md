@@ -96,6 +96,8 @@ To disable or suspend the Bucket Versioning please proceed as follows:
 aws --profile eu2 --region default --endpoint-url https://eu2.contabostorage.com s3api put-bucket-versioning --bucket bucket-with-versioning --versioning-configuration Status=Suspended
 ```
 
+Please note that old versions won't be deleted if you turn off Bucket Versioning. No new versions will be created, that's all.
+
 ## Hint
 
 Tools like [Cyberduck](/docs/Object-Storage/Tools/cyberduck) are making these tasks very easy. Just do a `Info` on a bucket and check `Bucket Versioning`. Please also enable via `View` -> `Show Hidden Files` the display of all versions.
