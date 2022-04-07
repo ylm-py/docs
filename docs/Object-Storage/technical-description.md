@@ -28,3 +28,26 @@ Limitation is performed to assure good and fair performance for all users of the
 * bandwidth is limited and regularily adjusted. Limit should be at least 10 MByte/s (=80 Mbit/s)
 * max. upload size is 200 MB for larger files please user multipart upload (which most tools support out of the box)
 * max. 100 buckets per customer
+
+## ARN (Amazon Resource Name) Format
+
+The [ARN](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) are used to specify resources like users.
+
+In case you are e.g. building up your own polcies you might have the need to specify users like e.g. [Restricting Users to Buckets](/docs/Object-Storage/HowTo/restricting-user-bucket)
+
+### ARN Format for Customer (Main User)
+
+`arn:aws:iam::<s3TenantId>:user/<customerId>`
+
+* To get your `s3TenantId` please use `cntb get objectStorages -o=json`
+
+Example: `arn:aws:iam::5c37e60c3ee04f1eb116c436b1afadca:user/12345`
+
+### ARN Format for Users of Cutomer (Sub Users)
+
+`arn:aws:iam::<s3TenantId>:user/<customerId>:<userId>`
+
+* To get your `s3TenantId` please use `cntb get objectStorages -o=json`
+* The `userId` is obtained by using `cntb get users`
+
+Example: `arn:aws:iam::5c37e60c3ee04f1eb116c436b1afadca:user/12345:3368c22e-08da-446f-a470-1928e58457a2`

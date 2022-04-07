@@ -34,7 +34,7 @@ A bucket policy allows or disallows access in form of specific actions to bucket
 
 Furthermore we will need the internal representation of the users in the S3 Object Storage. To get them please use the [Contabo API](https://api.contabo.com/#operation/retrieveUserList) or the [`cntb` cli](https://github.com/contabo/cntb) via `cntb get users`. Please use the value of the `userId` field.
 
-You will also need the so called `s3TenantId` for the given Object Storage. You can obtain it via `./cntb get objectStorages -o=json`
+You will also need the so called `s3TenantId` for the given Object Storage. You can obtain it via `cntb get objectStorages -o=json`
 
 ### Step 1
 
