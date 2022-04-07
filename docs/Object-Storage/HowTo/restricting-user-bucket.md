@@ -60,7 +60,7 @@ With the given data we can build up a policy for `bucket-for-user-1` and store i
 }
 ```
 
-Please note that in here `s3TenantId=5c37e60c3ee04f1eb116c436b1afadca`, `customerId=12345` and `userId=3368c22e-08da-446f-a470-1928e58457a2`. Thus the format is `arn:aws:iam::<s3TenantnId>:user/<customerId>:<userId>`.
+Please note that in here `s3TenantId=5c37e60c3ee04f1eb116c436b1afadca`, `customerId=12345` and `userId=3368c22e-08da-446f-a470-1928e58457a2`. Thus the format is `arn:aws:iam::<s3TenantId>:user/<customerId>:<userId>`.
 
 To apply it, please run:
 
@@ -90,7 +90,7 @@ This step denies any action on any resource in `bucket-for-user-2` for user `use
 }
 ```
 
-Please note that in here `s3TenantId=5c37e60c3ee04f1eb116c436b1afadca`, `customerId=12345` and `userId=6299cbdd-ef72-486b-b088-c34181fc20f1`. Thus the format is `arn:aws:iam::<s3TenantnId>:user/<customerId>:<userId>`.
+Please note that in here `s3TenantId=5c37e60c3ee04f1eb116c436b1afadca`, `customerId=12345` and `userId=6299cbdd-ef72-486b-b088-c34181fc20f1`. Thus the format is `arn:aws:iam::<s3TenantId>:user/<customerId>:<userId>`.
 
 To apply it, please run:
 
