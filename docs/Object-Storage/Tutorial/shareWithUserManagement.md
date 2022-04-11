@@ -25,7 +25,7 @@ To create and add a new user to your User Management list, follow these steps:
 
 By specifying all mandatory information, the user's corresponding role (e.g. S3 Object Storage Read and Write) and confirming with 'Create' you grant access to buckets, files and folders.
 
-The user will receive an invitation via email. The status of the user is displayed in the account overview (see first image above):
+The user will receive an invitation via email. The status of the user is displayed in the account overview (see first image above).
 
 ## How do I revoke access to Storage from selected users?
 
