@@ -44,9 +44,17 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'products',
+            sidebarId: 'productSidebar',
+            docId: 'products/intro',
             position: 'left',
             label: 'Products',
+          },
+          {
+            type: 'doc',
+            sidebarId: 'accountsBillingSidebars',
+            docId: 'accounts-billing/intro',
+            position: 'left',
+            label: 'Accounts & Billing',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -64,7 +72,11 @@ const config = {
             items: [
               {
                 label: 'Products',
-                to: '/docs/products',
+                to: '/docs/products/intro',
+              },
+              {
+                label: 'Accounts & Billing',
+                to: 'docs/accounts-billing/intro',
               },
             ],
           },
