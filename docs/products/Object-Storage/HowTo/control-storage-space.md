@@ -7,8 +7,8 @@ sidebar_position: 10
 
 Sometimes you may encounter with S3 compatible Object Storage in general that more storage space is reported as being used than you obviously have. In practice it has the following reasons:
 
-* Aborted multipart uploads
-* Enabled Versioning
+* [Aborted multipart uploads](#aborted-multipart-uploads)
+* [Enabled Versioning](#enabled-versioning)
 
 The next sections will cover the different topics in more detail. In the following we assume [aws cli](/docs/products/Object-Storage/Tools/aws-cli) to be installed and configured properly.
 
@@ -45,7 +45,7 @@ aws --profile eu2 --region default --endpoint-url https://eu2.contabostorage.com
 done
 ```
 
-## Versioning
+## Enabled Versioning
 
 Enabled or once enabled Versioning holds also storage space as there are many versions of a file. Those files are usually not visible.
 
