@@ -8,5 +8,5 @@ sidebar_position: 2
 * Alternatively, we will create a customer account for you when place your order.
 ## Deletion
 * We remove every account after the last product on this account is cancelled.
-* This means you will not be able to log in to [Customer Control Panel] <https://my.contabo.com/> when you no longer have subscriptions.
+* This means you will not be able to log in to [Customer Control Panel](https://my.contabo.com/) when you no longer have subscriptions.
 * If you need services, just order as a new customer and we will create a new account for you.
