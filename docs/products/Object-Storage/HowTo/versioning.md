@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Bucket Versioning
 
-Wit S3 compatible Object Storage you can use versioning. This enables to keep multiple versions of an object. So that if you upload a object / file with the same name the S3 Object Storage system will store a version from the previous contents. This version will be also stored in the bucket and will not be directly visible.
+With S3 compatible Object Storage you can use versioning. This enables to keep multiple versions of an object. So that if you upload a object / file with the same name the S3 Object Storage system will store a version from the previous contents. This version will be also stored in the bucket and will not be directly visible.
 
 This How-To shows how to enable it via [aws cli](/docs/products/Object-Storage/Tools/aws-cli) tool and how to list and retrieve older versions of files. Of course disabling it will also be shown.
 
