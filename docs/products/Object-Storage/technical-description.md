@@ -28,6 +28,7 @@ Limitation is performed to assure good and fair performance for all users of the
 * bandwidth is limited and regularily adjusted. The default limit is 10 MByte/s (=80 Mbit/s). Please be aware that the actual bandwith depends on various circumstances, e.g. personal internet connection speed and current load situation on Object Storage system.
 * max. upload size is 200 MB for larger files please user multipart upload (which most tools support out of the box)
 * by default max. 100 buckets per customer
+* each customer can have 1 object storage per location
 
 ## ARN (Amazon Resource Name) Format
 
