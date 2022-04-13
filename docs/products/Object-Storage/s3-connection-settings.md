@@ -24,7 +24,7 @@ This is a general description of S3 connection settings. In order to use S3 comp
     </tr>
     <tr>
       <td>United States</td>
-      <td>https://usc1.contabostorage.com<</td>
+      <td>https://usc1.contabostorage.com</td>
       <td>Consists of an access key and secret key. See below on how to obtain them</td>
     </tr>
 </table>
