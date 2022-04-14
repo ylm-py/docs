@@ -6,7 +6,7 @@ sidebar_position: 4
 
 [rclone](https://rclone.org/) is a free tool for manging files and folders on cloud storage on Windows, macOS, linux and FreeBSD. This includes protocols including S3 compatible Object Storage.
 
-Please follow the installation instruction like described on [rclone](https://rclone.org/downloads/)
+Please follow the installation instruction like described on [rclone](https://rclone.org/downloads/). We generally recommend using the latest stable release from there and __not__ installing rclone via your distro's package manager.
 
 All you will need is:
 
