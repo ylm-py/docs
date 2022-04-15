@@ -39,7 +39,7 @@ Please follow the steps in order to use Contabo's Object Storage as external sto
    * `Bucket` = `nextcloud`
    * `Hostname` = `eu2.contabostorage.com`
    * `Port` = 443
-   * `Region` leave empty
+   * `Region` = `default`
    * check `Enable SSL`
    * check `Enable Path Style`
    * `Access Key` = `82046e8110804a43bf29c1ae426a724d`
