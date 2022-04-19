@@ -23,6 +23,7 @@ For tools not covered in the list, please consider the following information:
 * [aws cli](/docs/products/Object-Storage/Tools/aws-cli)
 * [rclone](/docs/products/Object-Storage/Tools/rclone)
 * [Cyberduck](/docs/products/Object-Storage/Tools/cyberduck)
+* [goofys](/docs/products/Object-Storage/Tools/goofys)
 * [s3fs-fuse](/docs/products/Object-Storage/Tools/s3fs-fuse)
 * [Nextcloud](/docs/products/Object-Storage/Tools/nextcloud)
 * [s3cmd](/docs/products/Object-Storage/Tools/s3cmd)

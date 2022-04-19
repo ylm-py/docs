@@ -21,8 +21,16 @@ For `access_key`, `secret_key` and the S3 URL please check [here](/docs/products
 * `secret_key` = 82e69bd7a52076c527154297a76c2233
 * S3 URL = https://eu2.contabostorage.com
 
-
 ## Linux
+
+### goofys
+
+For Linux [goofys](https://github.com/kahing/goofys) can be used which offers better performance than s3fs-fuse. Please follow the install instructions. In the following example we consider the mount path to be `/mnt/foo` and the bucket to be mounted `foo`. Please make sure that you set up your `~/.aws/credentials` file with the proper values.s
+
+```bash
+sudo mkdir /mnt/foo
+echo 'goofys#foo /mnt/foo fuse _netdev,allow_other,--file-mode=0666,--dir-mode=0777,--endpoint=eu2.contabostorage.com 0 0' | sudo tee -a /etc/fstab
+```
 
 ### s3fs-fuse
 
