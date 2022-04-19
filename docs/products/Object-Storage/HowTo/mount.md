@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Mounting S3 Object Storage Files
 
-It is possible to mount S3 Object Storage to your VPS/VDS or personal computer. This way you can access the files and folders of your S3 Object Storage like a local drive. This makes usaage more convenient.
+It is possible to mount S3 Object Storage to your VPS/VDS or personal computer. This way you can access the files and folders of your S3 Object Storage like a local drive. This makes usage more convenient.
 
 All you will need is:
 
@@ -25,7 +25,7 @@ For `access_key`, `secret_key` and the S3 URL please check [here](/docs/products
 
 ### goofys
 
-For Linux [goofys](https://github.com/kahing/goofys) can be used which offers better performance than s3fs-fuse. Please follow the install instructions. In the following example we consider the mount path to be `/mnt/foo` and the bucket to be mounted `foo`. Please make sure that you set up your `~/.aws/credentials` file with the proper values.s
+For Linux [goofys](https://github.com/kahing/goofys) can be used which offers better performance than s3fs-fuse. Please follow the install instructions. In the following example we consider the mount path to be `/mnt/foo` and the bucket to be mounted `foo`. Please make sure that you set up your `~/.aws/credentials` file with the proper values.
 
 ```bash
 sudo mkdir /mnt/foo
