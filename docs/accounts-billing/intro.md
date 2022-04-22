@@ -3,7 +3,7 @@ sidebar_position: 1
 id: intro
 ---
 
-# Intro
+# Introduction
 
 This section describes billing rules in Contabo.
 
