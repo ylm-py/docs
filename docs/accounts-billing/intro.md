@@ -54,22 +54,22 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 
 #### Terms and Conditions
 
+- An accepted payment method for the new currency needs to be available.
 - All subscriptions will be moved to the new account, not just parts of it.
 - The account balance will not be transferred to the new account.
 - The payment history and invoices will not be transferred to the new account. Invoices will no longer be available after the change.
-- For all subscriptions new net prices in new currency (plus VAT where applicable) as shown on the [Contabo website](https://contabo.com/en/) need to be accepted.
-- An administration fee of €25.00 / $30.00 (plus VAT where applicable) applies, based upon the currency of the old account. The one-time administration fee needs to be accepted.
+- An administration fee of €25.00 / $30.00 (plus VAT where applicable) applies, based upon the currency of the old account.
 - The process is irrevocable. Undoing the currency change retriggers the whole process, including costs.
 
 #### Requirements
 
 - The terms and conditions for the currency change need to be accepted.
 - The [Contabo Terms & Conditions](https://contabo.com/en/legal/terms-and-conditions/) need to be accepted.
-- An accepted payment method for the new currency needs to be available.
 - All invoices from the old account need to be downloaded before requesting the change.
 - 2-factor authentication on the new account needs to be enabled/re-enabled on demand.
 - Proper payment method on the new account needs to be arranged/rearranged.
-- The administration fee needs to be paid in the currency of the old account. Account balance can be used alternatively.
+- For all subscriptions new net prices in new currency (plus VAT where applicable) as shown on the [Contabo website](https://contabo.com/en/) need to be accepted.
+- The administration fee needs to be accepted and paid in the currency of the old account. Account balance can be used alternatively.
 
 ### Potential Extra Charges
 
