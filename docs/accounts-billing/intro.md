@@ -33,7 +33,7 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 - Customers can choose currency independent of their location or location of their servers.
 - Each customer account can only have 1 currency.
 - All payments from a customer need to be sent in the currency of the customer account. If a payment is sent in a currency that does not match the currency on the customer account, it will not be accepted and will be refunded to the payer.
-- The currency is fixed by the first order and cannot be changed. A customer may create a new account with a differnt currency and ask to transfer subsrciptions. Subscritpions prices will be changed to the new currency. €25 administration fee applies.
+- The currency is fixed by the first order and cannot be changed. A customer may create a new account with a differnt currency and ask to transfer subscriptions. Subscriptions prices will be changed to the new currency. €25.00 administration fee applies.
 
 ### Potential Extra Charges
 
