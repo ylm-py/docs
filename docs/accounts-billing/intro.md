@@ -37,6 +37,7 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 
 ### Changing Currency of a Customer Account
 
+- Changing currency of a customer account can be requested by contacting customer support.
 - A new customer account (the "new account") will be created and existing subscriptions will be moved there. This is an administrative task only; data/configuration of products will not be touched.
 - The existing customer account (the "old account") will be removed and inaccessible.
 - There will be a completely new account in the Customer Control Panel with
@@ -55,8 +56,8 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 - A payment method available for the new currency needs to be set by a customer.
 - All subscriptions will be moved to the new account. It is not possible to move just some subscriptions.
 - All subscriptions' prices will be changed to the new currency as indicated on the [Contabo website](https://contabo.com/en/). The tax rate will remain unchanged.
-- The account balance will not be transferred to the new account.
 - An administration fee of €25.00 / $30.00 (plus tax where applicable) applies, based on the currency of the old account.
+- The account balance will not be transferred to the new account. If there is money left on the balance after deducting the administration fee, it will be used to extend the subscription period accordingly. In rare case that there is a large amount on the balance it can be also returned to the customer.
 - The process is irrevocable. Changing currency again requires repeating the whole process, including paying administration fee once again.
 
 ### Potential Extra Charges
