@@ -22,6 +22,10 @@ Please note that `ISO` formats should be seen as installation CDs/DVDs/Bluerays/
 
 `QCOW2` images are like a bootable copy of a hard disk where the operating system and other software is already installed. Thus the copy of those images _become_ the hard disk of the Cloud VPS or VDS.
 
+## Supported Operating Systems
+
+The Custom Image must use the `x86-64` (aka `amd64`) architecture and must include support for VirtIO drivers, i.e. `virtio_scsi` for the hard disk and `virtio_net` for networking.
+
 ## Adding Custom Image
 
 For adding a Custom Image you specify a URL from which the Custom Image will be downloaded.
@@ -43,4 +47,4 @@ For using your Custom Image for a Cloud VPS or VDS please make sure that the `cl
 
 Please note that due to Microsoft license regulations no custom Windows license can be used. We strongly recommend to use our standard Windows images or at least to buy a Windows license from Contabo.
 
-Furthermore it is very likely that custom Windows images **won't** work as they are usually missing `virtio` drivers to make the hard disk of the Cloud VPS or VDS available.
+Furthermore it is very likely that custom Windows images **won't** work as they are usually missing VirtIO drivers to make the hard disk of the Cloud VPS or VDS available.
