@@ -6,31 +6,25 @@ sidebar_position: 2
 
 VPS and VDS without additional SSDs can be moved to a different Region upon request. You can start this process in your [Customer Control Panel](https://my.contabo.com/): Switch to “Your Services” and choose the option “Move to other Region” from the Manage menu right next to the VPS or VDS you want to transfer.
 
-## Available Regions
+## Regions & Location Fees
 
-* European Union (Germany)
-* United States (Central)
-* United States (East)
-* United States (West)
-* Asia (Singapore)
+You can learn about regions available on our website: https://contabo.com/en/locations/
 
-If your server shall be migrated to one of our Regions in the United States (Central, East, West) or Asia (Singapore), there is a certain Location Fee which you can extract from the overview provided on our website:
- 
-https://contabo.com/en/location-fees/
+For some Regions there is a Location Fee which you can be seen in this overview: https://contabo.com/en/location-fees/
 
-## Available options to change the Region
+## Deployment Methods
 
 ### New Deployment
 
-All data of your current VPS will be deleted and a new instance with a new IP address will be created in a desired Region. This method is free of charge.
+All data of your current instance will be deleted and a new instance with a new IP address will be created in a desired Region. This method is free of charge.
 
 ### Migration
 
-available at a rate of €30.00 / $35.00 one-time plus VAT (where applicable)
+In this case, we will migrate your server including all server data to the desired Region. Your server will stay online during the data transfer. The duration of a Migration depends on the amount of data which needs to be transferred and some other technical conditions. We cannot give you an exact estimation, but a Migration should take not longer than 12 hours. After the completion of data transfer the server needs to be rebooted and reconfigured. During that downtime we reconfigure the main IP address of your server. This causes a downtime of approximately 1 hour. Only in seldom cases the downtime can be up to 12 hours.
 
-With this option, we will migrate your server including all server data to the desired Location. Your server will stay online after the start of data transfer. The duration of a Migration depends on the amount of data which needs to be transferred and some other technical conditions. We cannot give you an exact estimation, but a Migration should take not longer than 12 hours. Still, keep in mind, you can use your server during the whole Migration process. After the completion of data transfer, the server needs to be rebooted. This causes a downtime of approximately 1 hour. During that downtime we reconfigure the main IP address of your server. Only in seldom cases the downtime can be longer, up to 12 hours in the worst case. Even though this is not likely, we wanted to let you know about the possibility beforehand.
+Migration costs €30.00 / $35.00 one-time fee plus tax (where applicable)
  
-#### IP address changes after migration
+#### IP address changes after Migration
  
 * The main IPv4 address of your server must be changed to a completely different one. In most cases we will undertake this task and thus make sure you can reach your server over the new IPv4 address. In some cases, however, it might be necessary for you to configure the new IP address yourself via VNC once the migration is completed.
 * The VNC address of your server must be changed. We will undertake this task and thus make sure you can reach your server over the new VNC address.
