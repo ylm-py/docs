@@ -30,6 +30,7 @@ Migration costs €30.00 / $35.00 one-time fee plus tax (where applicable)
 * The VNC address of your server must be changed. We will undertake this task and thus make sure you can reach your server over the new VNC address.
 * Also, all of your additional IPv4 addresses and all IPv6 addresses will be replaced. We will not undertake the configuration work for these IP addresses.
 * We will tell you all new IP addresses right after the Migration.
+* The PTR record of the main IPv4 address will be set automatically. The configuration of PTR records for additional IPv4 and all IPv6 addresses is up to you.
 
 ### Additional configuration for certain services after moving to a different Region
 
