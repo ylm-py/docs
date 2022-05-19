@@ -22,7 +22,7 @@ All data of your current instance will be deleted and a new instance with a new 
 
 In this case, we will migrate your server including all server data to the desired Region. Your server will stay online during the data transfer. The duration of a Migration depends on the amount of data which needs to be transferred and some other technical conditions. We cannot give you an exact estimation, but a Migration should take not longer than 12 hours. After the completion of data transfer the server needs to be rebooted and reconfigured. During that downtime we reconfigure the main IP address of your server. This causes a downtime of approximately 1 hour. Only in seldom cases the downtime can be up to 12 hours.
 
-Migration costs €30.00 / $35.00 one-time fee plus tax (where applicable)
+There is an one-time service charge of €30.00 / $35.00 / £30.00 for the migration since there is some manual effort on our end required.
  
 #### IP address changes after Migration
  
