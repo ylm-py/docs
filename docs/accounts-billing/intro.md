@@ -26,6 +26,11 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
   - PayPal Manual Payments
   - PayPal Automated Payments
 
+- GBP (£)
+  - Credit Card
+  - PayPal Manual Payments
+  - PayPal Automated Payments
+
 > We do not accept payments in cryptocurrencies such as Bitcoin.
 
 ### Basic Rules
@@ -56,10 +61,10 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 - A payment method available for the new currency needs to be set by a customer.
 - All subscriptions will be moved to the new account. It is not possible to move just some subscriptions.
 - All subscriptions' prices will be changed to the new currency as indicated on the [Contabo website](https://contabo.com/en/). The tax rate will remain unchanged.
-- An administration fee of €25.00 / $30.00 (plus tax where applicable) applies, based on the currency of the old account.
+- An administration fee of €25.00 / $30.00 / £26.00 (plus tax where applicable) applies, based on the currency of the old account.
 - The account balance will not be transferred to the new account. If there is money left on the balance after deducting the administration fee, it will be used to extend the subscription period accordingly. In rare case that there is a large amount on the balance it can be also returned to the customer.
 - The process is irrevocable. Changing currency again requires repeating the whole process, including paying administration fee once again.
 
 ### Potential Extra Charges
 
-> Credit Card charges in USD ($) are still done by a German company which means that some payment providers may consider payments to Contabo as a foreign transaction and may charge extra fees on customer's side, even if there is no currency conversion.
+> Credit Card charges in USD($) and GBP(£) are still done by a German company which means that some payment providers may consider payments to Contabo as a foreign transaction and may charge extra fees on customer's side, even if there is no currency conversion.
