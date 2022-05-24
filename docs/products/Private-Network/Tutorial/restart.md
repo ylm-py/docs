@@ -2,15 +2,15 @@
 sidebar_position: 3
 ---
 
-# Restart and Reinstallation of your Instance(s) after adding to a private Network
+# How can I restart and reinstall my Instance(s)?
 
 After adding a server to a private network, the server needs to be reinstalled if it is located on a vhost that does not support private network. Thus, also the ip-address of the server changes and all data will permanently be deleted. 
 
 If the server is already on a vHost that supports private network a reinstallation is not required but a restart is sufficient. All data and its ip-adress remain. 
 
 
-## Reinstallation Reinstallation my server  
-If your server needs to be reinstalled to be added to a private network, it is represented by the status "requires reinstallation" in the private network detail view for the corresponding server.
+## Reinstall my server  
+If your server needs to be reinstalled to complete its addition to a private network, it is represented by the status "requires reinstallation" in the private network detail view for the corresponding server.
 <p align="center">
 <img src="/img/products/private-network/tutorial/privateNetworkDetailItem.png" alt="Private Network Detail One Item With Restart and Reinstallation"/>
 </p>
