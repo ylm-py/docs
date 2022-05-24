@@ -15,7 +15,7 @@ If your server needs to be reinstalled to complete its addition to a private net
 <img src="/img/products/private-network/tutorial/privateNetworkDetailItem.png" alt="Private Network Detail One Item With Restart and Reinstallation"/>
 </p>
 
-### How can I reinstall my server after adding to a private network? 
+### How can I reinstall my server after adding it to a private network? 
 The restart can be started by clicking on the corresponding symbol in the quick action (<img src="/img/products/private-network/tutorial/reinstallationIcon.png"/>).
 Then, the reinstallation screen for VPS and VDS appears: 
 
