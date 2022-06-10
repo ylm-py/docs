@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Automate Public Sharing via S3 API
 
-This How-To is for those who do want to do public sharing of files by automation tools. This might not be the only way, but the one also used by Contabo's Object Storage Panel. This relies on so calles [policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html). As from the AWS S3 specification subfolders do not inherit the policies.
+This How-To is for those who do want to do public sharing of files by automation tools. This might not be the only way, but the one also used by Contabo's Object Storage Panel. This relies on so called [policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html). As from the AWS S3 specification subfolders do not inherit the policies.
 
 ## Setup your S3 tool
 
