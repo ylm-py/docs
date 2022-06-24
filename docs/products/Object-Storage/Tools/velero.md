@@ -12,6 +12,7 @@ All you will need is:
 
 * `access_key`
 * `secret_key`
+* destination bucket
 * Contabo's S3 URL
 
 For `access_key`, `secret_key` and the S3 URL please check [here](/docs/products/Object-Storage/s3-connection-settings).
