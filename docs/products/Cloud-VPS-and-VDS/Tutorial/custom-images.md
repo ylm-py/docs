@@ -22,6 +22,18 @@ Please note that `ISO` formats should be seen as installation CDs/DVDs/Bluerays/
 
 `QCOW2` images are like a bootable copy of a hard disk where the operating system and other software is already installed. Thus the copy of those images _become_ the hard disk of the Cloud VPS or VDS.
 
+Please be aware that the system will check if an image is either `ISO` or `QCOW2` image. Having file endings being `.iso` or `.qcow2` images is not sufficient. You can easily verify it by downloading the image  or having it available locally on your computer and exectute (for Linux/BSD/Mac only) `file <name of the image>`.
+
+E.g. for and alpine ISO image and a debian qcow2 image the following results are fine:
+
+```sh
+file alpine-virt-3.16.0-x86_64.iso
+alpine-virt-3.16.0-x86_64.iso: ISO 9660 CD-ROM filesystem data (DOS/MBR boot sector) 'alpine-virt 3.16.0 x86_64' (bootable)
+
+file debian-11-generic-amd64-20210814-734.qcow2
+debian-11-generic-amd64-20210814-734.qcow2: QEMU QCOW2 Image (v3), 2147483648 bytes
+```
+
 ## Supported Operating Systems
 
 The Custom Image must use the `x86-64` (aka `amd64`) architecture and must include support for VirtIO drivers, i.e. `virtio_scsi` for the hard disk and `virtio_net` for networking.
