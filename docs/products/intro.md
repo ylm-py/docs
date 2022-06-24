@@ -13,6 +13,7 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 
 * [Contabo's S3 compatible Object Storage](/docs/products/Object-Storage/what-is)
 * [Contabo's Cloud VPS and VDS](/docs/products/Cloud-VPS-and-VDS/what-is)
+* [Contabo's Private Networking for Cloud VPS and VDS](/docs/products/private-network/faq)
 
 ## APIs
 

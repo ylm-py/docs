@@ -31,6 +31,7 @@ For tools not covered in the list, please consider the following information:
 * [Cloudberry Explorer](/docs/products/Object-Storage/Tools/cloudberry-explorer)
 * [BucketAnywhere](/docs/products/Object-Storage/Tools/bucketanywhere)
 * [Virtualmin](/docs/products/Object-Storage/Tools/virtualmin)
+* [Velero](/docs/products/Object-Storage/Tools/velero)
 
 ## Tools known NOT to work
 
