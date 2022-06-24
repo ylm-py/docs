@@ -19,7 +19,7 @@ Please be aware that the physical connections for Private Networking are shared 
 In the following limitations which might not be aparent are described:
 
 * There are no bandwidth guarantees in a private network as it is a shared resource.
-* Excpect the bandwidht to be multiple times faster than the upllink of your Cloud VPS/VDS.
+* Excpect the bandwidht to be multiple times faster than the uplink of your Cloud VPS/VDS.
 * Round trip times (latency) will be significantly better. Here an example ping:
   ```sh
   ping 10.0.16.2
