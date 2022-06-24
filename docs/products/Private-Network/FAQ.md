@@ -44,14 +44,25 @@ Activating Private Networking for your Cloud VPS / Cloud VDS is seamless, yet an
 If you are not yet using Contabo’s DevOps features for your existing VPS a re-installation is necessary.
 Please see [this tutorial](/docs/products/Private-Network/Tutorial/restart) or the Private Networking section in <https://my.contabo.com/> for further details.
 
-## Can I add a Cloud VPS / Cloud VDS to more than one private network at the same time?
+### Can I add a Cloud VPS / Cloud VDS to more than one private network at the same time?
 
 Yes, a Cloud VPS / Cloud VDS can be added to multiple private networks in parallel.
 
-## How can I control my Private Networking features through the API / CLI?
+### How can I control my Private Networking features through the API / CLI?
 
 Instructions on how to use the API & CLI can be found here: <https://api.contabo.com/>
 
-## Can I create a private network across multiple regions?
+### Can I create a private network across multiple regions?
 
 Private networks can only be created in one region at a time. Only instances in the same region can be added to a private network.
+
+### Is VPN (Virtual Private Network) the same as Private Networking?
+
+No. VPN and private networks are two different things:
+
+- With a VPN (Virtual Private Network) you establish a secured connection between two computers over an unsecure (i.e. public) network.
+- Private networks are used to link computers direcly with separate (usually physical) network connection which is completely private. No public nets there.
+
+### Does Private Networking provide a firewall?
+
+Currently there is no firewall feature. Most likely you are looking to have one server being accessible to the internet while others are only part of the private network. In such cases please use the local firewalls of your operating system to turn off internet access for the chosen servers. In future Contabo will make a separate Firewall feature available.
