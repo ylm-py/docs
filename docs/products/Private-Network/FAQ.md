@@ -2,9 +2,11 @@
 sidebar_position: 1
 ---
 
-# FAQ
+# What is Private Networking? 
 
-This site answers frequently asked questions about the Private Networking feature. 
+Private Networking is an optional extension to the functionality of Contabo’s [Cloud VPS (Virtual Private Server)](https://contabo.com/en/vps/) and [Cloud VDS (Virtual Dedicated Servers)](https://contabo.com/en/vds/), allowing the enabled instances in the same Contabo location to communicate within a private network.
+
+Instances within the same private network get assigned private IP addresses and communications in between them is limited to this private network. 
 
 ### What are the benefits I get from an instance with Private Networking enabled?
 - Secure communications between Contabo instances within the same location – connect multiple Cloud VPS / Cloud VDS through a private network to enable secure data transfer between them.
