@@ -46,5 +46,5 @@ aws_secret_access_key=82e69bd7a52076c527154297a76c2233
 # Lists your buckets
 aws --profile eu2 --region default --endpoint-url https://eu2.contabostorage.com s3 ls
 # invoke s3api directly
-aws --profile eu2 --region default --endpoint-url https://eu1-s3.contabo.com s3api get-bucket-policy --bucket test
+aws --profile eu2 --region default --endpoint-url https://eu2.contabostorage.com s3api get-bucket-policy --bucket test
 ```
