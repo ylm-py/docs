@@ -12,7 +12,7 @@ We are using [Ceph](https://ceph.com/) for providing S3 compatible Object Storag
 
 * Virtual Hosted Buckets are not supported. Path based buckets are being used.
   so e.g. `eu2.contabostorage.com/bucketname` is used instead of `bucketname.eu2.contabostorage.com`
-* `CNAME` for custom domain names are not supported yet.
+* `CNAME` for custom domain names are supported. Please check [Setup Custom Domain (`CNAME`)](/docs/products/Object-Storage/HowTo/custom-domain-cname)
 * No server side encryption yet.
 * Transport is encrypted via TLS
 
