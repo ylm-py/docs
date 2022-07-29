@@ -3,6 +3,11 @@ sidebar_position: 1
 title: No Access
 ---
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 # No access to Object Storage or Buckets
 
 Possible other questions:
@@ -15,14 +20,43 @@ Possible other questions:
 
 You can easily check if you are affected by blacklisting. Assuming your S3 Object Storage is located in region EU you can do both of the following:
 
-```sh
+<Tabs>
+  <TabItem value="EU" label="European Union" default>
+
+```bash
 ping eu2.contabostorage.com
 # if you get an error response or 100% packet loss then you are getting blocked
 curl https://eu2.contabostorage.com
 # if you don't get back `{"message":"Unauthorized"}` then you are getting blocked
 ```
 
-For other regions please refer to [S3 Connection Settings](/docs/products/Object-Storage/s3-connection-settings) to get the corresponding URL.
+```mdx-code-block
+  </TabItem>
+  <TabItem value="SIN" label="Singapore">
+
+```bash
+ping sin1.contabostorage.com
+# if you get an error response or 100% packet loss then you are getting blocked
+curl https://sin1.contabostorage.com
+# if you don't get back `{"message":"Unauthorized"}` then you are getting blocked
+```
+
+```mdx-code-block
+  </TabItem>
+  <TabItem value="US" label="United States">
+```
+
+```bash
+ping usc1.contabostorage.com
+# if you get an error response or 100% packet loss then you are getting blocked
+curl https://usc1.contabostorage.com
+# if you don't get back `{"message":"Unauthorized"}` then you are getting blocked
+```
+
+```mdx-code-block
+  </TabItem>
+</Tabs>
+
 
 ## Solutions
 
