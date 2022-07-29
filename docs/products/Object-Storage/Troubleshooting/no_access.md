@@ -18,7 +18,7 @@ Possible other questions:
 
 ## How to check if you are affected
 
-You can easily check if you are affected by blacklisting. Assuming your S3 Object Storage is located in region EU you can do both of the following:
+You can easily check if you are affected by blacklisting.
 
 <Tabs>
   <TabItem value="EU" label="European Union" default>
