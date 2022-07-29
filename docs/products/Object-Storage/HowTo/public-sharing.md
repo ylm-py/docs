@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Automate Public Sharing via S3 API
 
-This How-To is for those who do want to do public sharing of files by automation tools. This might not be the only way, but the one also used by Contabo's Object Storage Panel. This relies on so called [policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html). As from the AWS S3 specification subfolders do not inherit the policies.
+This How-To is for those who do want to do public sharing of files by automation tools. This might not be the only way, but the one also used by Contabo's Object Storage Panel. This relies on so called [policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html).
 
 ## Setup your S3 tool
 
@@ -70,9 +70,70 @@ aws --profile eu2 --endpoint-url https://eu2.contabostorage.com s3api put-bucket
 
 The URL would be <https://eu2.contabostorage.com/{s3TenantId}:foo/test.png>. The `s3TenantId` can be retrieved via the [Contabo API](https://api.contabo.com/#operation/retrieveObjectStorageList).
 
-## Disable Public Sharing for a file
+## Enable Public Sharing for a folder an all its sub items
 
-To disable the Public Sharing for a file you need first to get the current policy via
+Create a file `public-sharing-policy.json` with following content
+
+```json title="public-sharing-policy.json"
+{
+  "Id": "your-fancy-name",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "arn:aws:s3:::foldername/*"
+      ],
+      "Principal": "*"
+    }
+  ]
+}
+```
+
+The only difference is that you put `*` as a wildcard / placeholder for the file name. Of course you can have constucts like `"arn:aws:s3:::foldername1/foldername2/*"`
+
+### Example for Enabling
+
+#### Example values
+
+* S3 URL = https://eu2.contabostorage.com
+* Bucket = foo
+* Folder to share = foo/*
+* Policy file = public-sharing-policy.json with following contents
+
+```json title="public-sharing-policy.json"
+{
+  "Id": "public-share-example-test",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "arn:aws:s3:::foo/*"
+      ],
+      "Principal": "*"
+    }
+  ]
+}
+```
+
+```bash
+aws --profile eu2 --endpoint-url https://eu2.contabostorage.com s3api put-bucket-policy --bucket foo --policy file://public-sharing-policy.json
+```
+
+Please be aware that the S3 Object Storage doesn't support file listing in browser (please refer to [tutorial](/docs/products/Object-Storage/Tutorial/shareWithPublic#peculiarity-for-sharing-folders))
+
+The URL would be <https://eu2.contabostorage.com/{s3TenantId}:foo/bar/filename.ending>. The `s3TenantId` can be retrieved via the [Contabo API](https://api.contabo.com/#operation/retrieveObjectStorageList).
+
+## Disable Public Sharing
+
+To disable the Public Sharing for a file or folder you need first to get the current policy via
 
 ```bash
 aws --profile eu2 --endpoint-url https://eu2.contabostorage.com s3api get-bucket-policy --bucket foo
@@ -84,4 +145,4 @@ Then remove the parts you would like to remove and do the `put-bucket-policy` ag
 aws --profile eu2 --endpoint-url https://eu2.contabostorage.com s3api delete-bucket-policy --bucket foo
 ```
 
-But be cautious as this will delete ALL policies on that bucket.
+But be cautious as this will delete __ALL__ policies on that bucket.
