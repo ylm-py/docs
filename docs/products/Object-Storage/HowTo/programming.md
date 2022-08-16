@@ -3,7 +3,7 @@ title: Using S3 Object Storage programatically
 sidebar_position: 12
 ---
 
-# How to use use S3 Object Stroage in your code
+# How to use use S3 Object Storage in your code
 
 :::danger No support
 Please note that Contabo doesn't offer any support for coding / programming issues due to its complexity.
