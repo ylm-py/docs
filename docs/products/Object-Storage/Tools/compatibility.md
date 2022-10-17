@@ -32,6 +32,7 @@ For tools not covered in the list, please consider the following information:
 * [BucketAnywhere](/docs/products/Object-Storage/Tools/bucketanywhere)
 * [Virtualmin](/docs/products/Object-Storage/Tools/virtualmin)
 * [Velero](/docs/products/Object-Storage/Tools/velero)
+* [Plesk](https://contabo.com/blog/how-to-use-plesk-for-backups/)
 
 ## Tools known NOT to work
 
@@ -39,5 +40,4 @@ These tools are -- _to our knowledge_ -- not working with Contabo's Object Stora
 
 * FileZillaPro: Seems like the issue is that FileZillaPro forces to use virtual bucket host name, i.e. bucket names in the domain name.
   As an alternative please use [Cyberduck](/docs/products/Object-Storage/Tools/cyberduck).
-* Plesk: is by default only supporting ftp(s). Also existing remote storage extensions are not allowing the proper configuration.
 * cPanel / WHM: the `S3Compatible` is not compatible. As cPanel / WHM supports specifying a backup destination folder [mounting](/docs/products/Object-Storage/HowTo/mount) the Object Storage to that backup folder could be a workaround.
