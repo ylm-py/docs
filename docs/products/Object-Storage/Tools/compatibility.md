@@ -32,7 +32,7 @@ For tools not covered in the list, please consider the following information:
 * [BucketAnywhere](/docs/products/Object-Storage/Tools/bucketanywhere)
 * [Virtualmin](/docs/products/Object-Storage/Tools/virtualmin)
 * [Velero](/docs/products/Object-Storage/Tools/velero)
-* [Plesk](docs/products/Object-Storage/Tools/plesk)
+* [Plesk](/docs/products/Object-Storage/Tools/plesk)
 
 ## Tools known NOT to work
 
