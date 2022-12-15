@@ -11,7 +11,7 @@ Instances within the same private network get assigned private IP addresses and 
 ### What are the benefits I get from an instance with Private Networking enabled?
 
 - Secure communications between Contabo instances within the same location – connect multiple Cloud VPS / Cloud VDS through a private network to enable secure data transfer between them.
-- Auto-assigned private IP addresses for effortless configuration – just choose the regarding Cloud VPS / Cloud VDS and private network, we ‘ll do the rest, no manual choosing network sizes / masks or manual private IP configuration.
+- Auto-assigned private IP addresses for effortless configuration – just choose the regarding Cloud VPS / Cloud VDS and private network, we'll do the rest, no manual choosing network sizes / masks or manual private IP configuration.
 
 ### I am new to Contabo, how can I buy the Private Networking?
 
