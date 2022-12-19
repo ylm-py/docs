@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # cntb
 
-[cntb](https://github.com/contabo/cntb) is an open source command line interface developed by Contabo to allow easy managing of the products in contabo. This includes the S3 Object Storage. Please follow the intructions to download and install `cntb`
+[cntb](https://github.com/contabo/cntb) is an open source command line interface developed by Contabo to allow easy managing of the Contabo products. This includes the S3 Object Storage. Please follow the intructions to download and install `cntb`
 
 ## Configuration
 
-To be able to use `cntb` with your S3 Object Storage all you need is the following data. You get them via the <https://my.contabo.com/api/details>
+To be able to use `cntb` with your S3 Object Storage, all you need is the following data. You get it via <https://my.contabo.com/api/details>
 
 * `client-id`
 * `client-secret`
