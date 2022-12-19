@@ -41,7 +41,7 @@ The command below will delete a bucket called `testbucket` in the region `EU`
 cntb delete bucket EU testbucket
 ```
 
-### Upload file(s)
+### Upload File(s)
 
 ```bash
 cntb create object --region EU --bucket testbucket --prefix prefix1/ --path path1
@@ -52,7 +52,7 @@ cntb create object --region EU --bucket testbucket --prefix prefix1/ --path path
 * `prefix` is the folder name where everything will be uploaded to
 * `path1` is the local path (from your local machine) where you want to upload files recursively
 
-### Delete file
+### Delete File
 
 ```bash
 cntb delete object --region EU --bucket bucket123 --path path1/fileName
