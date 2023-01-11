@@ -37,6 +37,16 @@ The final DNS record should look like this:
 
 ![Cloudflare DNS CNAME](/img/products/object-storage/howto/cname/Cloudflare_DNS_CNAME.png)
 
+### SSL Mode
+
+To avoid infinite redirects, set the SSL mode in Cloudflare. Go to Rules &rarr; Configuration Rules in the Cloudflare Dashboard and select _Create rule_. There, select "Hostname" as _Field_, "equals" as _Operator_ and your hostname as _Value_, "objects.example.com" in our example:
+
+![Cloudflare Configuration Rule](/img/products/object-storage/howto/cname/Cloudflare_Configuration_Rule.png)
+
+Scroll down to add SSL as setting and set it to "Full":
+
+![Cloudflare Configuration Rule SSL](/img/products/object-storage/howto/cname/Cloudflare_Configuration_Rule_SSL.png)
+
 ### Rewrite URL
 
 Next up is a rewrite rule to shorten the final URL. Go to Rules &rarr; Transform Rules in the Cloudflare Dashboard, select _Create transform rule_ and _Rewrite URL_:
