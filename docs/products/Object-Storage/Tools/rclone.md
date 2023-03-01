@@ -29,8 +29,8 @@ For `access_key`, `secret_key` and the S3 URL please check [here](/docs/products
 1. run `rclone config`
 2. specify `n` for `n) New remote`
 3. specify a name, e.g. `eu2`
-4. specify `5` for `Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS, and Tencent COS`
-5. specify `3` for `Ceph Object Storage`
+4. specify `4` for `Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS, and Tencent COS`
+5. specify `2` for `Ceph Object Storage`
 6. speficy `1` for `Enter AWS credentials in the next step.`
 7. specify your access_key, e.g. `82046e8110804a43bf29c1ae426a724d` for `access_key_id`
 8. specify your secret_key, e.g. `82e69bd7a52076c527154297a76c2233` for `secret_access_key`
