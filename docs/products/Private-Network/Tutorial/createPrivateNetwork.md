@@ -26,5 +26,5 @@ To create a new private network, the following steps need to be followed:
 * Optional: Take a description for the private network. This might help with future comprehensions. 
 * Confirm the settings by hitting 'Confirm'
 * The private network gets created and appears in the overview of all your active private networks. 
-* NOTE: The affiliation of the added instances will begin only after a reinstallation or restart of the corresponding server (see [here](/docs/Private-Network/Tutorial/restart) )  
+* NOTE: The affiliation of the added instances will begin only after a reinstallation or restart of the corresponding server (see [here](docs/private-network/tutorial/restart#how-can-i-restart-my-server-after-adding-it-to-a-private-network) )  
 
