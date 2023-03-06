@@ -26,3 +26,55 @@ Here are some examples where the integration was made:
 
 * [cntb](https://github.com/contabo/cntb) written in [Go](https://go.dev/) and using the [minio](https://github.com/minio/minio-go) library
 * External article on [dev.to](https://dev.to/einlinuus/use-contabo-object-storage-with-nodejs-5b9l) using [NodeJS](https://nodejs.org/en/) and [Python](https://www.python.org/)
+* Ceph Object Gateway docs include examples for [C++](https://docs.ceph.com/en/latest/radosgw/s3/cpp/), [C#](https://docs.ceph.com/en/latest/radosgw/s3/csharp/), [Java](https://docs.ceph.com/en/latest/radosgw/s3/java/), [Perl](https://docs.ceph.com/en/latest/radosgw/s3/perl/), [PHP](https://docs.ceph.com/en/latest/radosgw/s3/php/), [Python](https://docs.ceph.com/en/latest/radosgw/s3/python/) and [Ruby](https://docs.ceph.com/en/latest/radosgw/s3/ruby/#ruby-aws-s3-examples-aws-s3-gem)
+
+#### Python
+
+using [boto3](https://pypi.org/project/boto3/) 
+```python
+from os import path
+import boto3
+import humanize
+
+s3 = boto3.client('s3',
+                  endpoint_url='https://eu2.contabostorage.com',
+                  aws_access_key_id='<your access_key here>',
+                  aws_secret_access_key='<your_secret_key_here>')
+
+# list accessible buckets
+response = s3.list_buckets()
+for bucket in response['Buckets']:
+    print(bucket['Name'])
+
+# list bucket contents, optionally filtered by prefix=path
+response = s3.list_objects_v2(Bucket='<bucket_name>', Prefix='')
+for file in response['Contents']:
+  signed_url = s3.generate_presigned_url(ClientMethod='get_object', Params={'Bucket': bucket_name, 'Key': file['Key']})
+  name = path.basename(file['Key'])
+  size = humanize.naturalsize(file["Size"])
+  print(name, size, url)
+```
+
+using [s3fs](https://s3fs.readthedocs.io/en/latest/#s3-compatible-storage)
+```python
+from os import environ as env
+import s3fs
+
+fs = s3fs.S3FileSystem(
+  key='<your access_key here>',
+  secret=env.get('CONTABO_SECRET_KEY', '<your_secret_key_here>'),
+  endpoint_url='https://eu2.contabostorage.com'
+)
+
+fs.ls('my-bucket')
+# ['my-file.txt']
+
+with fs.open('my-bucket/my-file.txt', 'rb') as f:
+    print(f.read())
+# b'Hello, world'
+
+```
+
+
+
+
