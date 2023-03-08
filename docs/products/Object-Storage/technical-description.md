@@ -27,6 +27,7 @@ Limitation is performed to assure good and fair performance for all users of the
 * no additional backup is performed
 * bandwidth is limited and regularily adjusted. The default limit is 10 MByte/s (=80 Mbit/s). Please be aware that the actual bandwith depends on various circumstances, e.g. personal internet connection speed and current load situation on Object Storage system.
 * by default max. 100 buckets per customer
+* if publicly shared objects are set to private, they can still be publicly available for up to one hour due to caching
 
 ## ARN (Amazon Resource Name) Format
 
