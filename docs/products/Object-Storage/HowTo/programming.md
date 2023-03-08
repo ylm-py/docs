@@ -26,11 +26,13 @@ Here are some examples where the integration was made:
 
 * [cntb](https://github.com/contabo/cntb) written in [Go](https://go.dev/) and using the [minio](https://github.com/minio/minio-go) library
 * External article on [dev.to](https://dev.to/einlinuus/use-contabo-object-storage-with-nodejs-5b9l) using [NodeJS](https://nodejs.org/en/) and [Python](https://www.python.org/)
+* External repository by [lucafulgenzi](https://github.com/lucafulgenzi/contabo-object-storage-api) using [SpringBoot](https://spring.io/)
 * Ceph Object Gateway docs include examples for [C++](https://docs.ceph.com/en/latest/radosgw/s3/cpp/), [C#](https://docs.ceph.com/en/latest/radosgw/s3/csharp/), [Java](https://docs.ceph.com/en/latest/radosgw/s3/java/), [Perl](https://docs.ceph.com/en/latest/radosgw/s3/perl/), [PHP](https://docs.ceph.com/en/latest/radosgw/s3/php/), [Python](https://docs.ceph.com/en/latest/radosgw/s3/python/) and [Ruby](https://docs.ceph.com/en/latest/radosgw/s3/ruby/#ruby-aws-s3-examples-aws-s3-gem)
 
 #### Python
 
-using [boto3](https://pypi.org/project/boto3/) 
+using [boto3](https://pypi.org/project/boto3/)
+
 ```python
 from os import path
 import boto3
@@ -56,6 +58,7 @@ for file in response['Contents']:
 ```
 
 using [s3fs](https://s3fs.readthedocs.io/en/latest/#s3-compatible-storage)
+
 ```python
 from os import environ as env
 import s3fs
@@ -72,9 +75,4 @@ fs.ls('my-bucket')
 with fs.open('my-bucket/my-file.txt', 'rb') as f:
     print(f.read())
 # b'Hello, world'
-
 ```
-
-
-
-
