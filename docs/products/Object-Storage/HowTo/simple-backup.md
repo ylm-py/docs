@@ -15,7 +15,7 @@ Here is a very simple way to perform backup of files you are caring. Here only [
 4. run the following command to store the files on your Object Storage
 
   ```bash
-  rclone sync -P /home/user/backup eu2:backup/ --s3-no-head
+  rclone sync -P /home/user/backup eu2:backup/
   ```
 
 5. You can of course run this command on a recurring schedule with crontab or Windows Task Scheduler
