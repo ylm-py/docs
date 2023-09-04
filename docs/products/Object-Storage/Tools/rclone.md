@@ -62,3 +62,22 @@ Example to sync the entire current folder to Object Storage:
 ```bash
 rclone sync -P . eu2:bucketname/folder
 ```
+
+### Mount
+
+:::danger Filesystem Caveats
+Please note that that a mounted Object Storage bucket doesn't always behave like a normal POSIX file system. Depending on how your application is accessing files, you may encounter issues like:
+
+* no/wrong file system usage statistics
+* sub-par performance
+* unexpected unmounts
+* duplicate writes leading to hidden objects that occupy space but are invisible to S3 API requests
+:::
+
+Example to mount a bucket to `/mnt` with recommend flags for optimal performance:
+
+```
+rclone mount eu2:bucketname /mnt --vfs-cache-mode full --vfs-fast-fingerprint --no-modtime
+```
+
+To learn more about available mount options, check the [rclone mount documentation](https://rclone.org/commands/rclone_mount/).
